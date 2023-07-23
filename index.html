@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cosmic Journey</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div id="output">
+      <label id="outputText">Welcome to Cosmic Journey! Type "explore" or "encounter" to begin.</label>
+    </div>
+    <div class="info">
+      <p>Fuel: <span id="fuel">100</span></p>
+      <p>Food: <span id="food">50</span></p>
+      <p>Oxygen: <span id="oxygen">100</span></p>
+      <p>Health: <span id="health">100</span></p>
+      <p>Shields: <span id="shields">100</span></p>
+      <p>Energy: <span id="energy">100</span></p>
+      <p>Water: <span id="water">50</span></p>
+    </div>
+    <div class="input-container">
+      <input type="text" id="input" placeholder="Enter your choice...">
+      <button onclick="submitChoice()">Submit</button>
+      <button onclick="restartGame()">Restart</button>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
